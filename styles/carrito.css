@@ -1,0 +1,44 @@
+/* Diseño del carrito */
+.carrito {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Lista de productos en el carrito */
+.lista-carrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Diseño de cada item */
+.item-carrito {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.item-carrito img {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: darkred;
+}

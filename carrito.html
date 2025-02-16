@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito - E-Commerce Herramientas</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/carrito.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Tienda de Herramientas</h1>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="carrito">
+        <h2>Carrito de Compras</h2>
+        <div class="lista-carrito">
+            <article class="item-carrito">
+                <img src="assets/images/martillo.jpg" alt="Martillo de Carpintero">
+                <h3>Martillo de Carpintero</h3>
+                <p>$50.000</p>
+                <button>Eliminar</button>
+            </article>
+        </div>
+        <button class="comprar">Finalizar Compra</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tienda de Herramientas - Todos los derechos reservados.</p>
+    </footer>
+    <section id="carrito-container" class="lista-carrito"></section>
+<p id="total-carrito">Total: $0</p>
+<button id="vaciar-carrito">Vaciar Carrito</button>
+<script src="js/app.js"></script>
+</body>
+</html>
